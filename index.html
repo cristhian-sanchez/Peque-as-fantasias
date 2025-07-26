@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/styles.css">
+    <script src="../static/app.js" defer></script>
+    <title>Mi página web</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Pequeñas Fantasias</div>
+        <ul class="nav-links">
+            <li><a href="#inicio">INICIO</a></li>
+            <li><a href="#servicios">SERVICIOS</a></li>
+            <li><a href="#contacto">CONTACTO</a></li>
+            <li><a href="#acerca">ACERCA DE NOSOTROS</a></li>
+            <li><a href="#Horarios">HORARIO DE ATENCION</a></li>
+        </ul>
+        <button class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <header id="inicio" class="hero-section">
+        <h1>Bienvenido a Nuestra Página Web</h1>
+        <p>Descubre nuestro catalogo y más.</p>
+        <a href="#servicios" class="btn-primary">Descubrir Más</a>
+    </header>
+
+    <main>
+        <section id="servicios" class="cards-container">
+            <h2>MENU</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>MAQUILLAJE</h3>
+                    <ul>
+                    <li> ------------------------------------- </li> 
+                    <li> ------------------------------------- </li> 
+                    <li> ------------------------------------- </li>
+                    <li> ------------------------------------- </li>
+                    <li> ------------------------------------- </li>
+                    <li></li>
+                    </ul>
+                    <img src="2.jpg">
+                    <ul>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>JUGUETES</h3>
+                    <ul>
+                     <li> ------------------------------------- </li> 
+                    <li> ------------------------------------- </li> 
+                    <li> ------------------------------------- </li>
+                    <li> ------------------------------------- </li>
+                    <li> ------------------------------------- </li>
+                    </ul>
+                    <img src="1.jpg">
+                    <ul>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>LOCIONES</h3>
+                    <ul>
+                    <li> ------------------------------------- </li> 
+                    <li> ------------------------------------- </li> 
+                    <li> ------------------------------------- </li>
+                    <li> ------------------------------------- </li>
+                    <li> ------------------------------------- </li>
+                    <li></li>
+                    </ul>
+                    <img src="3.webp">
+                    <ul>
+                        <li></li>
+                    </ul>
+                    
+                </div>
+                <div class="card">
+                    <h3>ACCESORIOS</h3>
+                    <ul>
+                    <li> ------------------------------------- </li> 
+                    <li> ------------------------------------- </li> 
+                    <li> ------------------------------------- </li>
+                    <li> ------------------------------------- </li>
+                    <li> ------------------------------------- </li>
+                    <li></li>
+                    </ul>
+                    <img src="4.jpg">
+                    <ul>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </section>
+        <section id="contacto" class="contact-section">
+            <h2>Contacto</h2>
+            <form id="contact-form" method="POST" action="/send_email">
+
+                <button type="submit">Cl. 6a #4-04 </button>
+                <button type="submit">Tik Tok: </button>
+                <button type="submit">WhatsApp: </button>
+            </form>
+        </section>
+
+        
+       <!-- Contenedor para mensajes flash -->
+       <div id="flash-messages" class="flash-messages"></div>
+       
+        <section id="acerca" class="about-section">
+            <h2>Acerca de Nosotros</h2>
+            <p>Somos un almacen comprometido a ofrecer los mejores productos a los mejores precios.</p>
+        </section>
+
+        <section id="Horarios" class="time-section">
+            <h2>Horario de Atencion</h2>
+            
+                <h3>Lunes a viernes</h3>
+                
+                    <h4>8:00 a 12:00</h4> 
+                    <h4>2:00 a 06:00</h4>
+                
+                <h3>Sabado</h3>
+
+                    <h4>8:00 a 12:00</h4>
+                    <h4>2:00 a 06:00</h4>
+                
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
